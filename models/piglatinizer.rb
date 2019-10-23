@@ -1,6 +1,6 @@
 class PigLatinizer
   
-  def initialize(input)
+  def initialize
   end 
   
 end 
