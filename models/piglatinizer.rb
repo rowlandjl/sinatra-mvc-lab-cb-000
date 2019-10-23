@@ -8,7 +8,8 @@ class PigLatinizer
     
     new_array = []
     input_array.each do |word|
-      if word[0].scan(/[aeoui]/)
+      
+      if word.split('')[0].scan(/[aeoui]/)
         new_array << word + 'way'
       end 
     end
