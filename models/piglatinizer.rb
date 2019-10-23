@@ -11,7 +11,9 @@ class PigLatinizer
       if word[0].scan(/[aeoui]/)
         new_array << word + 'way'
       end 
-    end 
+    end
+    
+    new_array.join(' ')
   end 
   
 end 
