@@ -10,6 +10,7 @@ class PigLatinizer
     input_array.each do |word|
       split_word = word.split('')
       if split_word[0].scan(/[aeoui]/)
+        binding.pry 
         new_array << word + 'way'
       else 
         new_array << split_word.insert(0, split_word.pop).join('') + 'ay'
