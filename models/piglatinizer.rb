@@ -4,6 +4,7 @@ class PigLatinizer
   end 
   
   def piglatinize(user_input)
+    input_array = user_input.split(" ")
   end 
   
 end 
