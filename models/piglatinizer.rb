@@ -9,7 +9,7 @@ class PigLatinizer
     new_array = []
     input_array.each do |word|
       split_word = word.split('')
-      if split_word[0].scan(/[aeoui]/)
+      if split_word[0].include?(/[aeoui]/)
         binding.pry 
         new_array << word + 'way'
       else 
