@@ -12,7 +12,7 @@ class PigLatinizer
       if split_word[0].scan(/[aeoui]/)
         new_array << word + 'way'
       else 
-        
+        split_word.insert(0, split_word.pop)
       end 
     end
     
