@@ -5,6 +5,10 @@ class PigLatinizer
   
   def piglatinize(user_input)
     input_array = user_input.split(" ")
+    
+    input_array.each do |word|
+      if word[0]
+    end 
   end 
   
 end 
