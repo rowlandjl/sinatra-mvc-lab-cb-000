@@ -7,7 +7,7 @@ class PigLatinizer
     input_array = user_input.split(" ")
     
     input_array.each do |word|
-      if word[0]
+      if word[0].scan(/[aeoui]/)
     end 
   end 
   
